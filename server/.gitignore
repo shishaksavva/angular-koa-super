@@ -10,7 +10,7 @@
 # dependencies
 /node_modules
 
-/auto
+/auto/routes.ts
 
 # profiling files
 chrome-profiler-events*.json
