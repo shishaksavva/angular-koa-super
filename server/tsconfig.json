@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+      "types": [
+        "node"
+      ],
+      "incremental": true,
+      "target": "esnext",
+      "module": "commonjs",
+      "lib": [
+        "ESNext"
+      ],
+      "isolatedModules": true,
+      /* Strict Type-Checking Options */
+      "strict": true,
+      /* Additional Checks */
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      /* Module Resolution Options */
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+      "./app/**/*", 
+      "../core/components" 
+    ],
+    "exclude": [
+      "node_modules",
+      "__tests__"
+    ]
+  }
